@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 400px;
+  height: 400px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.screen {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background-color: rgb(210, 250, 250);
+  border-radius: 6px;
+  border: none;
+  box-shadow: 2px 3px 2px black;
+  transition: 0.1s ease-out;
+}
